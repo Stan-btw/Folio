@@ -1,0 +1,10 @@
+.name {
+  color: #b3b3b3;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: end;
+}
