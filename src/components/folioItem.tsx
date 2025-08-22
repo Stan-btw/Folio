@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface folioItemProps {
@@ -12,7 +13,7 @@ export default function FolioItem(folioItemProps: folioItemProps) {
     <div>
       {image ? (
         <div className="w-[900px] h-[500px] bg-white rounded-lg shadow-md">
-          <img src={image} alt="image" />
+          <Image src={image} alt="image" width={900} height={500} />
         </div>
       ) : (
         <div className="w-[900px] h-[500px] bg-white rounded-lg shadow-md"></div>

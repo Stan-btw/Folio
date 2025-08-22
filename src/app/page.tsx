@@ -3,7 +3,6 @@ import Intro from "@/components/pages/intro";
 import Experiences from "@/components/pages/experiences";
 import TechStack from "@/components/pages/techstack";
 import Folio from "@/components/pages/folio";
-import HorizontalScroll from "@/components/HorizontalScroll";
 import HorizontalScrollAnimated from "@/components/HorizontalScroll";
 
 export default function Home() {

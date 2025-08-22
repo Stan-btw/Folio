@@ -6,14 +6,17 @@ function Folio() {
   const items = [
     <FolioItem
       index={1}
+      key={1}
       title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed"
     />,
     <FolioItem
       index={2}
+      key={2}
       title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed"
     />,
     <FolioItem
       index={3}
+      key={3}
       title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed"
     />,
   ];
